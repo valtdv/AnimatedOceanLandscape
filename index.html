@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--META-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--LINK-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--SCRIPTS-->
+    <script src="script.js"></script>
+    <!--TITLE AND OTHERS-->
+    <title>Animated Ocean Landscape - CSS animation</title>
+  </head>
+  <body>
+    <section class="sky-section">
+      <div class="sun-section">
+        <div class="sun centered"></div>
+      </div>
+      <div class="clouds-section">
+        <div class="cloud cloud-1"></div>
+        <div class="cloud cloud-2"></div>
+        <div class="cloud cloud-3"></div>
+        <div class="cloud cloud-4"></div>
+        <div class="cloud cloud-5"></div>
+        <div class="cloud cloud-6"></div>
+      </div>
+    </section>
+    <section class="title-section">
+      <h1>Animated Ocean Landscape</h1>
+      <h2>By: Valeria Osorio Salcedo</h2>
+    </section>
+    <section class="ocean-section">
+      <svg
+        class="wave"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 24 150 28 "
+        preserveAspectRatio="none"
+      >
+        <defs>
+         
+          <path
+            id="gentle-wave"
+            d="M-160 44c30 0 
+              58-18 88-18s
+              58 18 88 18 
+              58-18 88-18 
+              58 18 88 18
+              v44h-352z"
+          />
+        </defs>
+        <g class="wavy">
+          <use xlink:href="#gentle-wave" x="50" y="3" fill="#2ebbf2" />
+        </g>
+      </svg>
+      <div class="ocean-gradient"></div>
+    </section>
+  </body>
+</html>
